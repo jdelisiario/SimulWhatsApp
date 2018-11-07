@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_busca"
+        android:icon="@drawable/buscar"
+        android:title="Buscar"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/item_ngrupo"
+        android:title="Novo grupo" />
+    <item
+        android:id="@+id/item_ntransmissao"
+        android:title="Nova Transmissão" />
+
+    <item
+        android:id="@+id/item_whatsWeb"
+        android:title="WhatsApp Web" />
+    <item
+        android:id="@+id/item_msgmarcadas"
+        android:title="Mensagem Marcadas" />
+    <item
+        android:id="@+id/item_config"
+        android:title="Configurações" />
+
+</menu>
